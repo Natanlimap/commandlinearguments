@@ -17,6 +17,8 @@ int main(int argc, char const *argv[]) //funcao que mostra a implementacao de co
 		if(argc == 2)
 		{ //se o programa receber 2 argumentos, significa que o cliente nao passou a mensagem
 			getline(std::cin, message); //recebemos o input da mensagem do cliente
+			std::cout << "Mensagem Adicionada" << std::endl; //mostramos que a mensagem foi adicionada
+
 		}else{
 			message = argv[2]; //como a mensagem foi passada pelo cliente, receberemos ela aqui.
 		}
