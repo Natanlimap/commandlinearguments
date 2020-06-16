@@ -1,7 +1,9 @@
 #include <iostream>
 #include <string.h>
 
-int main(int argc, char const *argv[])
+
+
+int main(int argc, char const *argv[]) //funcao que mostra a implementacao de como receber argumentos pelo terminal.
 {
 	if(argc == 1) // verifica quantos parametros foram passados pela linha de comando
 	{ 
